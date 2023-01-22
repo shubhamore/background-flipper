@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  width: 350px;
+  max-width: 95%;
+  padding: 10px 25px;
+  text-align: center;
+}
+#btn {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  background-color: aliceblue;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#btn:hover {
+  transform: scale(1.05);
+}
+#btn:active {
+  transform: scale(0.95);
+}
